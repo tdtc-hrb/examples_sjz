@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\core_cm3.o" ".\flash\system_lpc17xx.o" ".\flash\mcpwm.o" ".\flash\mcpwmtest.o" ".\flash\timer.o" --strict --scatter ".\FLASH\mcpwm.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\mcpwm.map" -o ".\FLASH\mcpwm.axf"

@@ -1,0 +1,903 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Obj\USBCDC.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Obj\USBCDC.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT4.0 [Build 728]: Last Updated: Thu May 13 11:13:58 2010
+<BR><P>
+<H3>Maximum Stack Usage =         88 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; VCOM_Init &rArr; CDC_Init &rArr; ser_InitPort1
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[dc1f28]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1f28]">NMI_Handler</a><BR>
+ <LI><a href="#[dc1eec]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1eec]">HardFault_Handler</a><BR>
+ <LI><a href="#[dc1eb0]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1eb0]">MemManage_Handler</a><BR>
+ <LI><a href="#[dc1e74]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1e74]">BusFault_Handler</a><BR>
+ <LI><a href="#[dc1e38]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1e38]">UsageFault_Handler</a><BR>
+ <LI><a href="#[dc1dfc]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1dfc]">SVC_Handler</a><BR>
+ <LI><a href="#[dc1dc0]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1dc0]">DebugMon_Handler</a><BR>
+ <LI><a href="#[dc1d84]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1d84]">PendSV_Handler</a><BR>
+ <LI><a href="#[dc1d48]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1d48]">SysTick_Handler</a><BR>
+ <LI><a href="#[dc1d0c]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[dc1d0c]">ADC_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[dc1f64]">Reset_Handler</a>
+ <LI><a href="#[dc1f28]">NMI_Handler</a>
+ <LI><a href="#[dc1eec]">HardFault_Handler</a>
+ <LI><a href="#[dc1eb0]">MemManage_Handler</a>
+ <LI><a href="#[dc1e74]">BusFault_Handler</a>
+ <LI><a href="#[dc1e38]">UsageFault_Handler</a>
+ <LI><a href="#[dc1dfc]">SVC_Handler</a>
+ <LI><a href="#[dc1dc0]">DebugMon_Handler</a>
+ <LI><a href="#[dc1d84]">PendSV_Handler</a>
+ <LI><a href="#[dc1d48]">SysTick_Handler</a>
+ <LI><a href="#[dc1514]">WDT_IRQHandler</a>
+ <LI><a href="#[dc176c]">TIMER0_IRQHandler</a>
+ <LI><a href="#[dc1730]">TIMER1_IRQHandler</a>
+ <LI><a href="#[dc16f4]">TIMER2_IRQHandler</a>
+ <LI><a href="#[dc16b8]">TIMER3_IRQHandler</a>
+ <LI><a href="#[dc2450]">UART0_IRQHandler</a>
+ <LI><a href="#[dc2414]">UART1_IRQHandler</a>
+ <LI><a href="#[dc1604]">UART2_IRQHandler</a>
+ <LI><a href="#[dc15c8]">UART3_IRQHandler</a>
+ <LI><a href="#[dc1910]">PWM1_IRQHandler</a>
+ <LI><a href="#[dc1ab4]">I2C0_IRQHandler</a>
+ <LI><a href="#[dc1a78]">I2C1_IRQHandler</a>
+ <LI><a href="#[dc1a3c]">I2C2_IRQHandler</a>
+ <LI><a href="#[dc1820]">SPI_IRQHandler</a>
+ <LI><a href="#[dc17e4]">SSP0_IRQHandler</a>
+ <LI><a href="#[dc17a8]">SSP1_IRQHandler</a>
+ <LI><a href="#[dc1988]">PLL0_IRQHandler</a>
+ <LI><a href="#[dc185c]">RTC_IRQHandler</a>
+ <LI><a href="#[dc1be0]">EINT0_IRQHandler</a>
+ <LI><a href="#[dc1ba4]">EINT1_IRQHandler</a>
+ <LI><a href="#[dc1b68]">EINT2_IRQHandler</a>
+ <LI><a href="#[dc1b2c]">EINT3_IRQHandler</a>
+ <LI><a href="#[dc1d0c]">ADC_IRQHandler</a>
+ <LI><a href="#[dc1cd0]">BOD_IRQHandler</a>
+ <LI><a href="#[dc47f0]">USB_IRQHandler</a>
+ <LI><a href="#[dc1c58]">CAN_IRQHandler</a>
+ <LI><a href="#[dc1c1c]">DMA_IRQHandler</a>
+ <LI><a href="#[dc1a00]">I2S_IRQHandler</a>
+ <LI><a href="#[dc1af0]">ENET_IRQHandler</a>
+ <LI><a href="#[dc1898]">RIT_IRQHandler</a>
+ <LI><a href="#[dc19c4]">MCPWM_IRQHandler</a>
+ <LI><a href="#[dc18d4]">QEI_IRQHandler</a>
+ <LI><a href="#[dc194c]">PLL1_IRQHandler</a>
+ <LI><a href="#[dc158c]">USBActivity_IRQHandler</a>
+ <LI><a href="#[dc1c94]">CANActivity_IRQHandler</a>
+ <LI><a href="#[dc2b94]">main</a>
+ <LI><a href="#[dc0a88]">__main</a>
+ <LI><a href="#[dc5e34]">USB_EndPoint0</a>
+ <LI><a href="#[dc41d8]">USB_EndPoint1</a>
+ <LI><a href="#[dc419c]">USB_EndPoint2</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[dc0a88]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(.text)
+</UL>
+<P><STRONG><a name="[dc0740]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52 + Unknown Stack Size
+<LI>Call Chain = _main_stk &rArr; USB_EndPoint1 &rArr; CDC_NotificationIn &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc41d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint1
+</UL>
+
+<P><STRONG><a name="[dc0614]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[dc03bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[dc05d8]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[dc03bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[dc04e8]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[dc4778]"></a>USB_Reset_Event</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, usbuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_Reset_Event
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5f9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ResetCore
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc47f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_IRQHandler
+</UL>
+
+<P><STRONG><a name="[dc59c0]"></a>USB_Configure_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc41d8]"></a>USB_EndPoint1</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, usbuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USB_EndPoint1 &rArr; CDC_NotificationIn &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc3da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_NotificationIn
+<LI><a href="#[dc3ddc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetSerialState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc0740]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_stk
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbuser.o(.constdata)
+</UL>
+<P><STRONG><a name="[dc419c]"></a>USB_EndPoint2</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, usbuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USB_EndPoint2 &rArr; CDC_BulkIn &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc3e18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkOut
+<LI><a href="#[dc3e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkIn
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbuser.o(.constdata)
+</UL>
+<P><STRONG><a name="[dc4160]"></a>USB_EndPoint3</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc4124]"></a>USB_EndPoint4</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc40e8]"></a>USB_EndPoint5</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc40ac]"></a>USB_EndPoint6</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc4070]"></a>USB_EndPoint7</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc4034]"></a>USB_EndPoint8</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3ff8]"></a>USB_EndPoint9</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3fbc]"></a>USB_EndPoint10</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3f80]"></a>USB_EndPoint11</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3f44]"></a>USB_EndPoint12</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3f08]"></a>USB_EndPoint13</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3ecc]"></a>USB_EndPoint14</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc3e90]"></a>USB_EndPoint15</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbuser.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc2c84]"></a>VCOM_Init</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, vcomdemo.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = VCOM_Init &rArr; CDC_Init &rArr; ser_InitPort1
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc34f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc2c48]"></a>VCOM_Serial2Usb</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, vcomdemo.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = VCOM_Serial2Usb &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc3350]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_Read
+<LI><a href="#[dc34b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_AvailChar
+<LI><a href="#[dc572c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc2c0c]"></a>VCOM_Usb2Serial</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, vcomdemo.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = VCOM_Usb2Serial &rArr; ser_Write
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc2b1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_Write
+<LI><a href="#[dc3530]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_OutBufAvailChar
+<LI><a href="#[dc35a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_RdOutBuf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc2bd0]"></a>VCOM_CheckSerialState</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, vcomdemo.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = VCOM_CheckSerialState &rArr; CDC_NotificationIn &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc3da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_NotificationIn
+<LI><a href="#[dc3ddc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetSerialState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc2b94]"></a>main</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, vcomdemo.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = main &rArr; VCOM_Init &rArr; CDC_Init &rArr; ser_InitPort1
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc2b58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+<LI><a href="#[dc2bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_CheckSerialState
+<LI><a href="#[dc2c0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Usb2Serial
+<LI><a href="#[dc2c48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Serial2Usb
+<LI><a href="#[dc2c84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Init
+<LI><a href="#[dc4958]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Connect
+<LI><a href="#[dc4994]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[dc1f64]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1f28]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1f28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1f28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1eec]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1eec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1eec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1eb0]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1eb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1eb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1e74]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1e74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1e74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1e38]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1e38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1e38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1dfc]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1dfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1dfc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1dc0]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1dc0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1dc0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1d84]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1d84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1d84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1d48]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1d48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1d48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1d0c]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc1d0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc1d0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1cd0]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1c94]"></a>CANActivity_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1c58]"></a>CAN_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1c1c]"></a>DMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1be0]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1ba4]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1b68]"></a>EINT2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1b2c]"></a>EINT3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1af0]"></a>ENET_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1ab4]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1a78]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1a3c]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1a00]"></a>I2S_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc19c4]"></a>MCPWM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1988]"></a>PLL0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc194c]"></a>PLL1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1910]"></a>PWM1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc18d4]"></a>QEI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1898]"></a>RIT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc185c]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1820]"></a>SPI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc17e4]"></a>SSP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc17a8]"></a>SSP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc176c]"></a>TIMER0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1730]"></a>TIMER1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc16f4]"></a>TIMER2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc16b8]"></a>TIMER3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1604]"></a>UART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc15c8]"></a>UART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc158c]"></a>USBActivity_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc1514]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_lpc17xx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc03bc]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[dc05d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc0614]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[dc0380]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[dbfffc]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[dbffc0]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[dbff84]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[dc5f9c]"></a>USB_ResetCore</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, usbcore.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc4778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Reset_Event
+</UL>
+
+<P><STRONG><a name="[dc5f60]"></a>USB_SetupStage</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usbcore.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USB_SetupStage &rArr; USB_ReadEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5f24]"></a>USB_DataInStage</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, usbcore.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USB_DataInStage &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc572c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5ee8]"></a>USB_DataOutStage</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, usbcore.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USB_DataOutStage &rArr; USB_ReadEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5eac]"></a>USB_StatusInStage</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usbcore.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USB_StatusInStage &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc572c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5e70]"></a>USB_StatusOutStage</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, usbcore.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USB_StatusOutStage &rArr; USB_ReadEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5e34]"></a>USB_EndPoint0</STRONG> (Thumb, 890 bytes, Stack size 8 bytes, usbcore.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USB_EndPoint0 &rArr; CDC_SetLineCoding &rArr; ser_InitPort0
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc57e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetStallEP
+<LI><a href="#[dc581c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetAddress
+<LI><a href="#[dc5948]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DirCtrlEP
+<LI><a href="#[dc59c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Configure_Event
+<LI><a href="#[dc5ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ClrStallEP
+<LI><a href="#[dc5aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SetLineCoding
+<LI><a href="#[dc5b28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SetControlLineState
+<LI><a href="#[dc5b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SetCommFeature
+<LI><a href="#[dc5ba0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SendEncapsulatedCommand
+<LI><a href="#[dc5bdc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SendBreak
+<LI><a href="#[dc5c18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetLineCoding
+<LI><a href="#[dc5c54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetEncapsulatedResponse
+<LI><a href="#[dc5c90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetCommFeature
+<LI><a href="#[dc5ccc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_ClearCommFeature
+<LI><a href="#[dc5d08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetInterface
+<LI><a href="#[dc5d44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetConfiguration
+<LI><a href="#[dc5d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetClrFeature
+<LI><a href="#[dc5dbc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqGetStatus
+<LI><a href="#[dc5df8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqGetDescriptor
+<LI><a href="#[dc5e70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_StatusOutStage
+<LI><a href="#[dc5eac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_StatusInStage
+<LI><a href="#[dc5ee8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DataOutStage
+<LI><a href="#[dc5f24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DataInStage
+<LI><a href="#[dc5f60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetupStage
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbuser.o(.constdata)
+</UL>
+<P><STRONG><a name="[dc4afc]"></a>EPAdr</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc4a48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdEP
+<LI><a href="#[dc57e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetStallEP
+<LI><a href="#[dc5858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ResetEP
+<LI><a href="#[dc58d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EnableEP
+<LI><a href="#[dc590c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DisableEP
+<LI><a href="#[dc5a38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ConfigEP
+<LI><a href="#[dc5ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ClrStallEP
+</UL>
+
+<P><STRONG><a name="[dc4ac0]"></a>WrCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc47f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_IRQHandler
+<LI><a href="#[dc482c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_GetFrame
+</UL>
+
+<P><STRONG><a name="[dc4a84]"></a>WrCmdDat</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc48a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WakeUp
+<LI><a href="#[dc4958]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Connect
+<LI><a href="#[dc57e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetStallEP
+<LI><a href="#[dc581c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetAddress
+<LI><a href="#[dc5858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ResetEP
+<LI><a href="#[dc58d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EnableEP
+<LI><a href="#[dc590c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DisableEP
+<LI><a href="#[dc59fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Configure
+<LI><a href="#[dc5ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ClrStallEP
+</UL>
+
+<P><STRONG><a name="[dc4a48]"></a>WrCmdEP</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc4868]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ClearEPBuf
+<LI><a href="#[dc572c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WriteEP
+<LI><a href="#[dc5894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReadEP
+</UL>
+
+<P><STRONG><a name="[dc4a0c]"></a>RdCmdDat</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc47f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_IRQHandler
+<LI><a href="#[dc482c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_GetFrame
+</UL>
+
+<P><STRONG><a name="[dc581c]"></a>USB_SetAddress</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_SetAddress
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc4994]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Init
+<LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc49d0]"></a>USB_Reset</STRONG> (Thumb, 76 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc47f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_IRQHandler
+<LI><a href="#[dc4994]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Init
+</UL>
+
+<P><STRONG><a name="[dc4994]"></a>USB_Init</STRONG> (Thumb, 140 bytes, Stack size 4 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_Init &rArr; USB_SetAddress
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc49d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Reset
+<LI><a href="#[dc581c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetAddress
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc4958]"></a>USB_Connect</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_Connect
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc491c]"></a>USB_Suspend</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc47f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_IRQHandler
+</UL>
+
+<P><STRONG><a name="[dc48e0]"></a>USB_Resume</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc47f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_IRQHandler
+</UL>
+
+<P><STRONG><a name="[dc48a4]"></a>USB_WakeUp</STRONG> (Thumb, 22 bytes, Stack size 4 bytes, usbhw.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+</UL>
+
+<P><STRONG><a name="[dc5768]"></a>USB_WakeUpCfg</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetClrFeature
+</UL>
+
+<P><STRONG><a name="[dc59fc]"></a>USB_Configure</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_Configure
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[dc5a38]"></a>USB_ConfigEP</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_ConfigEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetInterface
+<LI><a href="#[dc5d44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[dc5948]"></a>USB_DirCtrlEP</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbhw.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc58d0]"></a>USB_EnableEP</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_EnableEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+<LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetInterface
+<LI><a href="#[dc5d44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[dc590c]"></a>USB_DisableEP</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_DisableEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+<LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetInterface
+<LI><a href="#[dc5d44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[dc5858]"></a>USB_ResetEP</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_ResetEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+<LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetInterface
+<LI><a href="#[dc5d44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetConfiguration
+</UL>
+
+<P><STRONG><a name="[dc57e0]"></a>USB_SetStallEP</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_SetStallEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+<LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetClrFeature
+<LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5ab0]"></a>USB_ClrStallEP</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_ClrStallEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdDat
+<LI><a href="#[dc4afc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EPAdr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReqSetClrFeature
+<LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc4868]"></a>USB_ClearEPBuf</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usbhw.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[dc4a48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdEP
+</UL>
+
+<P><STRONG><a name="[dc5894]"></a>USB_ReadEP</STRONG> (Thumb, 94 bytes, Stack size 20 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = USB_ReadEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc3e18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkOut
+<LI><a href="#[dc5e70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_StatusOutStage
+<LI><a href="#[dc5ee8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DataOutStage
+<LI><a href="#[dc5f60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetupStage
+</UL>
+
+<P><STRONG><a name="[dc572c]"></a>USB_WriteEP</STRONG> (Thumb, 74 bytes, Stack size 20 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4a48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmdEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2c48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Serial2Usb
+<LI><a href="#[dc3da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_NotificationIn
+<LI><a href="#[dc3e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkIn
+<LI><a href="#[dc5eac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_StatusInStage
+<LI><a href="#[dc5f24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DataInStage
+</UL>
+
+<P><STRONG><a name="[dc482c]"></a>USB_GetFrame</STRONG> (Thumb, 30 bytes, Stack size 4 bytes, usbhw.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[dc4a0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RdCmdDat
+<LI><a href="#[dc4ac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmd
+</UL>
+
+<P><STRONG><a name="[dc47f0]"></a>USB_IRQHandler</STRONG> (Thumb, 352 bytes, Stack size 32 bytes, usbhw.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USB_IRQHandler &rArr; USB_Reset_Event
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc4778]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Reset_Event
+<LI><a href="#[dc48e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Resume
+<LI><a href="#[dc491c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Suspend
+<LI><a href="#[dc49d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Reset
+<LI><a href="#[dc4a0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RdCmdDat
+<LI><a href="#[dc4ac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WrCmd
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc35a8]"></a>CDC_RdOutBuf</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = CDC_RdOutBuf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2c0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Usb2Serial
+</UL>
+
+<P><STRONG><a name="[dc356c]"></a>CDC_WrOutBuf</STRONG> (Thumb, 42 bytes, Stack size 20 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = CDC_WrOutBuf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc3e18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkOut
+</UL>
+
+<P><STRONG><a name="[dc3530]"></a>CDC_OutBufAvailChar</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc2c0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Usb2Serial
+</UL>
+
+<P><STRONG><a name="[dc3ddc]"></a>CDC_GetSerialState</STRONG> (Thumb, 174 bytes, Stack size 8 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = CDC_GetSerialState
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc33c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_LineState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_CheckSerialState
+<LI><a href="#[dc34f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Init
+<LI><a href="#[dc41d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint1
+</UL>
+
+<P><STRONG><a name="[dc34f4]"></a>CDC_Init</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = CDC_Init &rArr; ser_InitPort1
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc338c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_OpenPort
+<LI><a href="#[dc3404]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_InitPort1
+<LI><a href="#[dc3440]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_InitPort0
+<LI><a href="#[dc3ddc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetSerialState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2c84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Init
+</UL>
+
+<P><STRONG><a name="[dc5ba0]"></a>CDC_SendEncapsulatedCommand</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5c54]"></a>CDC_GetEncapsulatedResponse</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5b64]"></a>CDC_SetCommFeature</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5c90]"></a>CDC_GetCommFeature</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5ccc]"></a>CDC_ClearCommFeature</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5aec]"></a>CDC_SetLineCoding</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = CDC_SetLineCoding &rArr; ser_InitPort0
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc338c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_OpenPort
+<LI><a href="#[dc3440]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_InitPort0
+<LI><a href="#[dc347c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_ClosePort
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5c18]"></a>CDC_GetLineCoding</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5b28]"></a>CDC_SetControlLineState</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5bdc]"></a>CDC_SendBreak</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, cdcuser.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc3e54]"></a>CDC_BulkIn</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = CDC_BulkIn &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc3350]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_Read
+<LI><a href="#[dc34b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_AvailChar
+<LI><a href="#[dc572c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc419c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint2
+</UL>
+
+<P><STRONG><a name="[dc3e18]"></a>CDC_BulkOut</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = CDC_BulkOut &rArr; USB_ReadEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc356c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_WrOutBuf
+<LI><a href="#[dc5894]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ReadEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc419c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint2
+</UL>
+
+<P><STRONG><a name="[dc3da0]"></a>CDC_NotificationIn</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, cdcuser.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = CDC_NotificationIn &rArr; USB_WriteEP &rArr; WrCmdEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc572c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WriteEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_CheckSerialState
+<LI><a href="#[dc41d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint1
+</UL>
+
+<P><STRONG><a name="[dc338c]"></a>ser_OpenPort</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ser_OpenPort
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc275c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_DisableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc34f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Init
+<LI><a href="#[dc5aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SetLineCoding
+</UL>
+
+<P><STRONG><a name="[dc347c]"></a>ser_ClosePort</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ser_ClosePort
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc275c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_DisableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SetLineCoding
+</UL>
+
+<P><STRONG><a name="[dc3440]"></a>ser_InitPort0</STRONG> (Thumb, 320 bytes, Stack size 56 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = ser_InitPort0
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc2798]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc34f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Init
+<LI><a href="#[dc5aec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_SetLineCoding
+</UL>
+
+<P><STRONG><a name="[dc3404]"></a>ser_InitPort1</STRONG> (Thumb, 306 bytes, Stack size 56 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = ser_InitPort1
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc2798]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc34f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_Init
+</UL>
+
+<P><STRONG><a name="[dc3350]"></a>ser_Read</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ser_Read
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2c48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Serial2Usb
+<LI><a href="#[dc3e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkIn
+</UL>
+
+<P><STRONG><a name="[dc2b1c]"></a>ser_Write</STRONG> (Thumb, 144 bytes, Stack size 20 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = ser_Write
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc2c0c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Usb2Serial
+</UL>
+
+<P><STRONG><a name="[dc34b8]"></a>ser_AvailChar</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, serial.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc2c48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VCOM_Serial2Usb
+<LI><a href="#[dc3e54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_BulkIn
+</UL>
+
+<P><STRONG><a name="[dc33c8]"></a>ser_LineState</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, serial.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc3ddc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CDC_GetSerialState
+</UL>
+
+<P><STRONG><a name="[dc2450]"></a>UART0_IRQHandler</STRONG> (Thumb, 144 bytes, Stack size 8 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART0_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc2414]"></a>UART1_IRQHandler</STRONG> (Thumb, 154 bytes, Stack size 8 bytes, serial.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART1_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_lpc17xx.o(RESET)
+</UL>
+<P><STRONG><a name="[dc2b58]"></a>SystemInit</STRONG> (Thumb, 532 bytes, Stack size 0 bytes, system_lpc17xx.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc2b94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dc5df8]"></a>USB_ReqGetDescriptor</STRONG> (Thumb, 164 bytes, Stack size 8 bytes, usbcore.o(i.USB_ReqGetDescriptor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_ReqGetDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5dbc]"></a>USB_ReqGetStatus</STRONG> (Thumb, 160 bytes, Stack size 0 bytes, usbcore.o(i.USB_ReqGetStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5d80]"></a>USB_ReqSetClrFeature</STRONG> (Thumb, 210 bytes, Stack size 16 bytes, usbcore.o(i.USB_ReqSetClrFeature))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = USB_ReqSetClrFeature &rArr; USB_SetStallEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_WakeUpCfg
+<LI><a href="#[dc57e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_SetStallEP
+<LI><a href="#[dc5ab0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ClrStallEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5d44]"></a>USB_ReqSetConfiguration</STRONG> (Thumb, 402 bytes, Stack size 24 bytes, usbcore.o(i.USB_ReqSetConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USB_ReqSetConfiguration &rArr; USB_ResetEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ResetEP
+<LI><a href="#[dc58d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EnableEP
+<LI><a href="#[dc590c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DisableEP
+<LI><a href="#[dc59fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Configure
+<LI><a href="#[dc5a38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ConfigEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+
+<P><STRONG><a name="[dc5d08]"></a>USB_ReqSetInterface</STRONG> (Thumb, 282 bytes, Stack size 40 bytes, usbcore.o(i.USB_ReqSetInterface))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USB_ReqSetInterface &rArr; USB_ResetEP
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc5858]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ResetEP
+<LI><a href="#[dc58d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EnableEP
+<LI><a href="#[dc590c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_DisableEP
+<LI><a href="#[dc5a38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_ConfigEP
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc5e34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EndPoint0
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[dc2798]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, serial.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc3404]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_InitPort1
+<LI><a href="#[dc3440]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_InitPort0
+</UL>
+
+<P><STRONG><a name="[dc275c]"></a>NVIC_DisableIRQ</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, serial.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[dc338c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_OpenPort
+<LI><a href="#[dc347c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ser_ClosePort
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

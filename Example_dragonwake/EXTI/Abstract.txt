@@ -1,0 +1,23 @@
+The 'ExtInt' project is a simple program for the NXP 'LPC1768' 
+using 'LandTiger' Evaluation Board and 
+demonstrating the use of external interrupts.
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL  =  12 MHz
+   - PLL0  = 400 MHz
+   - CCLK  = 100 MHz
+
+ - Pin P2.10 is configured to generate an external interrupt.
+   Pressing button INT0 toggles LEDs.
+ 
+The EXTI program is available in different targets:
+  Simulator:  - configured for software Simulator
+  MCB1700:    - runs from Internal Flash located on chip
+                 (used for production or target debugging)
+
+外部割引に関してのテストである。
+INT0キーを押す度に、LEDが一つ左側に移転する。
+
+試験中、JP5（INT0）とJP8（LED）をショートする必要。
+

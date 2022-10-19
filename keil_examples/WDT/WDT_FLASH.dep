@@ -1,0 +1,7 @@
+Dependencies for Project 'WDT', Target 'FLASH': (DO NOT MODIFY !)
+F (..\common\src\startup_LPC17xx.s)(0x4D2463AC)(--cpu Cortex-M3 -g --apcs=interwork -I..\common\inc -I "D:\Keil\mdk4\ARM\CMSIS\Include" -I "D:\Keil\mdk4\ARM\INC\?NXP" --list ".\FLASH\startup_LPC17xx.lst" --xref -o ".\FLASH\startup_LPC17xx.o" --depend ".\FLASH\startup_LPC17xx.d")
+F (..\common\src\system_LPC17xx.c)(0x4D2463AC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\common\inc -I "D:\Keil\mdk4\ARM\CMSIS\Include" -I "D:\Keil\mdk4\ARM\INC\?NXP" -o ".\FLASH\system_lpc17xx.o" --omf_browse ".\FLASH\system_lpc17xx.crf" --depend ".\FLASH\system_lpc17xx.d")
+F (.\timer.c)(0x4CF4CCC8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\common\inc -I "D:\Keil\mdk4\ARM\CMSIS\Include" -I "D:\Keil\mdk4\ARM\INC\?NXP" -o ".\FLASH\timer.o" --omf_browse ".\FLASH\timer.crf" --depend ".\FLASH\timer.d")
+F (.\wdt.c)(0x4CF4CCC8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\common\inc -I "D:\Keil\mdk4\ARM\CMSIS\Include" -I "D:\Keil\mdk4\ARM\INC\?NXP" -o ".\FLASH\wdt.o" --omf_browse ".\FLASH\wdt.crf" --depend ".\FLASH\wdt.d")
+F (.\wdttest.c)(0x4D25B628)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\common\inc -I "D:\Keil\mdk4\ARM\CMSIS\Include" -I "D:\Keil\mdk4\ARM\INC\?NXP" -o ".\FLASH\wdttest.o" --omf_browse ".\FLASH\wdttest.crf" --depend ".\FLASH\wdttest.d")
+F (.\Abstract.txt)(0x4C74B29A)()

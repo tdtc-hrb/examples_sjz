@@ -1,0 +1,4 @@
+--cpu Cortex-M0 ".\obj\tmr32test.o" ".\obj\core_cm0.o" ".\obj\system_lpc11xx.o" ".\obj\startup_lpc11xx.o" ".\obj\gpio.o" ".\obj\timer32.o" --library_type=microlib --strict --scatter ".\Obj\timer32.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\timer32.map" -o ".\Obj\timer32.axf"

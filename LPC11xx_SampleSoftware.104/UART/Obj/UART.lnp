@@ -1,0 +1,4 @@
+--cpu Cortex-M0 ".\obj\uart.o" ".\obj\system_lpc11xx.o" ".\obj\core_cm0.o" ".\obj\startup_lpc11xx.o" ".\obj\uarttest.o" --library_type=microlib --strict --scatter ".\Obj\UART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\UART.map" -o ".\Obj\UART.axf"

@@ -1,0 +1,7 @@
+Dependencies for Project 'LandTiger_Timer', Target 'LandTiger_Timer': (DO NOT MODIFY !)
+F (.\Source\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4AEA5B64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "d:\Keil\\ARM\INC" -I "d:\Keil\\ARM\INC\NXP\LPC17xx" -o ".\Obj\core_cm3.o" --omf_browse ".\Obj\core_cm3.crf" --depend ".\Obj\core_cm3.d")
+F (.\Source\CMSIS\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.c)(0x4ADBC1F8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\system_lpc17xx.o" --omf_browse ".\Obj\system_lpc17xx.crf" --depend ".\Obj\system_lpc17xx.d")
+F (.\Source\CMSIS\CM3\DeviceSupport\NXP\LPC17xx\startup\arm\startup_LPC17xx.s)(0x4A6F919A)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx --list ".\List\startup_LPC17xx.lst" --xref -o ".\Obj\startup_LPC17xx.o" --depend ".\Obj\startup_LPC17xx.d")
+F (.\Source\App\timer.c)(0x4BEA7DE6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\timer.o" --omf_browse ".\Obj\timer.crf" --depend ".\Obj\timer.d")
+F (.\Source\App\tmrtest.c)(0x4BEA7DC4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -o ".\Obj\tmrtest.o" --omf_browse ".\Obj\tmrtest.crf" --depend ".\Obj\tmrtest.d")
+F (.\Source\หตร๗.txt)(0x00000000)()

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\core_cm3.o" ".\flash\ssptest.o" ".\flash\ssp.o" --library_type=microlib --strict --scatter ".\FLASH\ssptest.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\ssptest.map" -o ".\FLASH\ssptest.axf"

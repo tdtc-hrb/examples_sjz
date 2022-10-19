@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>.\ADC\adc.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Blinky\blinky.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\gpio\gpio.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\i2c\i2c.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\i2cslave\i2cslave.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\pmu\pmu.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\RS485\rs485.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\SSP\ssp.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\systick\systick.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\systick_swv\systick.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\timer32\timer32.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\UART\UART.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\USBCDC\USBCDC.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\wdt\wdt.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\CAN\can.uvproj</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+</ProjectWorkspace>

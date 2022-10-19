@@ -1,0 +1,23 @@
+*** Creating Trace Output File '.\FLASH\ssptest.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc17xx.o"'
+### List of Objects: adding '".\flash\system_lpc17xx.o"'
+### List of Objects: adding '".\flash\core_cm3.o"'
+### List of Objects: adding '".\flash\ssptest.o"'
+### List of Objects: adding '".\flash\ssp.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\core_cm3.o" ".\flash\ssptest.o" ".\flash\ssp.o" --library_type=microlib --strict --scatter ".\FLASH\ssptest.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\ssptest.map" -o ".\FLASH\ssptest.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\FLASH\ssptest.axf'
+### ADS-LD Command File: '.\FLASH\ssptest.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\FLASH\ssptest.lnp', Handle=0x000002D4
+### Writing '.lnp' file
+### ADS-LD Command file '.\FLASH\ssptest.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

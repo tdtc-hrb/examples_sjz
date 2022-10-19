@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\Obj\ssptest.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\ssp.o"'
+### List of Objects: adding '".\obj\ssptest.o"'
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_lpc11xx.o"'
+### List of Objects: adding '".\obj\startup_lpc11xx.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\obj\ssp.o" ".\obj\ssptest.o" ".\obj\core_cm0.o" ".\obj\system_lpc11xx.o" ".\obj\startup_lpc11xx.o" ".\obj\gpio.o" ".\obj\uart.o" --library_type=microlib --strict --scatter ".\Obj\ssptest.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\ssptest.map" -o ".\Obj\ssptest.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\ssptest.axf'
+### ADS-LD Command File: '.\Obj\ssptest.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\ssptest.lnp', Handle=0x000002D0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\ssptest.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

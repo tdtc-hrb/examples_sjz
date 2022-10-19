@@ -1,0 +1,22 @@
+*** Creating Trace Output File '.\FLASH\EXTINT.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc17xx.o"'
+### List of Objects: adding '".\flash\system_lpc17xx.o"'
+### List of Objects: adding '".\flash\einttest.o"'
+### List of Objects: adding '".\flash\extint.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\einttest.o" ".\flash\extint.o" --strict --scatter ".\FLASH\EXTINT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\EXTINT.map" -o ".\FLASH\EXTINT.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\FLASH\EXTINT.axf'
+### ADS-LD Command File: '.\FLASH\EXTINT.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\FLASH\EXTINT.lnp', Handle=0x000002E0
+### Writing '.lnp' file
+### ADS-LD Command file '.\FLASH\EXTINT.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

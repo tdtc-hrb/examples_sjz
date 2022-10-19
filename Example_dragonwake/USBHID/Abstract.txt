@@ -1,0 +1,15 @@
+LandTiger LPC17XXのUSB HIDテスト。
+USB deviceのテストである。実行中LPC1768ボードがUSBHID設備を模擬する。
+
+手順：
+1、本プログラムをボードに書き込む。
+2、ジャンパJP10を1-2に設定し、JP9、JP11を1-2に設定する。
+3、USBケーブルをCN12に挿入して、ボードに電源を入れる。
+　PC側でUSB HID設備を認識して自動的にドライバをインストールする。
+4、HIDClient.exeを実行する。
+　Joystickを操作して結果が見える。
+　LEDも制御できる。
+
+It demonstrates an USB HID (Human Interface Device):
+  - 8 LEDs (LED0..7)
+  - 5 Push Button (Joystick)

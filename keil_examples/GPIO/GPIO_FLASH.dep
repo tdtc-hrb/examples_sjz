@@ -1,0 +1,5 @@
+Dependencies for Project 'GPIO', Target 'FLASH': (DO NOT MODIFY !)
+F (..\common\src\startup_LPC17xx.s)(0x4D2463AC)(--cpu Cortex-M3 -g --apcs=interwork -I..\common\inc -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\?NXP --list ".\FLASH\startup_LPC17xx.lst" --xref -o ".\FLASH\startup_LPC17xx.o" --depend ".\FLASH\startup_LPC17xx.d")
+F (..\common\src\system_LPC17xx.c)(0x4D2463AC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\common\inc -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\?NXP -o ".\FLASH\system_lpc17xx.o" --omf_browse ".\FLASH\system_lpc17xx.crf" --depend ".\FLASH\system_lpc17xx.d")
+F (.\IOtest.c)(0x4FA87A9F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\common\inc -I D:\Keil\ARM\RV31\Inc -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC17xx -o ".\FLASH\iotest.o" --omf_browse ".\FLASH\iotest.crf" --depend ".\FLASH\iotest.d")
+F (.\Abstract.txt)(0x4C74B298)()
